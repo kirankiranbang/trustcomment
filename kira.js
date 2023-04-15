@@ -34,9 +34,10 @@ newDiv.setAttribute('title','hello div');
 var newDivText=document.createTextNode('hello world');
 
 
-//addtext ti div
+//addtext text div
 
 newDiv.appendChild(newDivText);
+
 
 
 
