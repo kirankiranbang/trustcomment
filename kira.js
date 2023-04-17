@@ -19,6 +19,13 @@
 // console.log(itemList.previousElementSibling);
 // itemList.previousElementSiblingstyle.color='yellow';
 
+
+
+
+
+
+const element = document.getElementById("header-title");
+element.innerHTML = "HEELO WORLD";
 //addclass
 var newDiv=document.querySelector('div');
 newDiv.className="hello";
@@ -31,7 +38,7 @@ newDiv.setAttribute('title','hello div');
 
 //crate textnode
 
-var newDivText=document.createTextNode('hello world');
+var newDivText=document.createTextNode('Item Lister');
 
 
 //addtext text div
